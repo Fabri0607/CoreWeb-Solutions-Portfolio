@@ -98,7 +98,7 @@ Si deseas utilizarlo comercialmente, se recomienda contactar al equipo.
 
 ¿Interesado en trabajar con nosotros?
 
-📧 Email: falfaroarce@icloud.com  
+📧 Email: corewebcr@gmail.com  
 📍 Ubicación: Costa Rica  
 
 ---
