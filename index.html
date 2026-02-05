@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- ========================================= -->
+    <!-- METADATOS BÁSICOS -->
+    <!-- ========================================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoreWeb Solutions - Portafolio profesional de desarrollo web">
+    <meta name="author" content="CoreWeb Solutions">
+
+    <title>CoreWeb Solutions | Portafolio Profesional</title>
+
+    <!-- ========================================= -->
+    <!-- HOJA DE ESTILOS -->
+    <!-- ========================================= -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- ========================================= -->
+    <!-- BOTÓN FLOTANTE HAMBURGUESA (solo móvil) -->
+    <!-- ========================================= -->
+    <button class="fab-hamburger" aria-label="Abrir menú">
+        <div class="hamburger-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </button>
+
+    <!-- ========================================= -->
+    <!-- MENÚ LATERAL DESPLEGABLE DESDE IZQUIERDA -->
+    <!-- ========================================= -->
+    <div class="side-menu" id="sideMenu">
+        <button class="close-menu" aria-label="Cerrar menú">×</button>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre Nosotros</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+
+    <!-- Overlay para cerrar al tocar fuera -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- ========================================= -->
+    <!-- HEADER / NAVBAR (versión desktop) -->
+    <!-- ========================================= -->
+    <header id="header">
+        <nav>
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="assets/icons/CoreWeb Logo.png" alt="CoreWeb Solutions Logo" class="logo">
+            </div>
+
+            <!-- Menú de enlaces (visible solo en pantallas grandes) -->
+            <div class="nav-menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre Nosotros</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========================================= -->
+    <!-- SECCIÓN INICIO / HERO -->
+    <!-- ========================================= -->
+    <section id="inicio">
+        <h2>Transformamos ideas en experiencias web memorables</h2>
+
+        <p>
+            Somos un grupo de estudiantes recién graduados en Ingeniería en Sistemas de Información,
+            enfocados en crear soluciones web profesionales, modernas y funcionales.
+        </p>
+
+        <!-- Botones de llamada a la acción -->
+        <div class="cta-buttons">
+            <a href="#portafolio">Ver Portafolio</a>
+            <a href="#contacto">Contáctanos</a>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SECCIÓN SOBRE NOSOTROS -->
+    <!-- ========================================= -->
+    <section id="sobre">
+        <h2>Quiénes somos</h2>
+
+        <p>
+            En <strong>CoreWeb Solutions</strong> desarrollamos sitios web modernos utilizando tecnologías base
+            como HTML5, CSS3, JavaScript y WordPress. Nuestro objetivo es ofrecer soluciones claras, eficientes
+            y orientadas a la experiencia del usuario.
+        </p>
+
+        <p>
+            Creemos en el diseño limpio, la navegación intuitiva y el desarrollo responsable,
+            aplicando buenas prácticas desde la estructura hasta la presentación final.
+        </p>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS -->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+
+        <p>
+            En CoreWeb Solutions nos especializamos en el desarrollo de páginas web personalizadas
+            que se adaptan perfectamente a las necesidades de tu negocio. Desde sitios informativos
+            hasta soluciones de comercio electrónico completas, ofrecemos servicios profesionales
+            con tecnología moderna y diseño responsive.
+        </p>
+
+        <div class="services-grid">
+            <!-- Servicio 1 -->
+            <article class="service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Páginas Web Estáticas o Informativas</h3>
+                <p>Sitios web profesionales enfocados en presentar tu negocio o proyecto de manera efectiva.</p>
+
+                <div class="service-includes">
+                    <h4>Incluye:</h4>
+                    <ul>
+                        <li>Diseño personalizado y responsive</li>
+                        <li>Optimización SEO básica</li>
+                        <li>Formulario de contacto</li>
+                        <li>Integración de redes sociales</li>
+                        <li>Galería de imágenes</li>
+                        <li>Hosting y dominio por 1 año</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Servicio 2 -->
+            <article class="service-card">
+                <div class="service-icon">📅</div>
+                <h3>Páginas con Agenda de Citas</h3>
+                <p>Soluciones web con sistema de reservas integrado para facilitar la gestión de citas de tu negocio.
+                </p>
+
+                <div class="service-includes">
+                    <h4>Incluye:</h4>
+                    <ul>
+                        <li>Todo lo de páginas estáticas</li>
+                        <li>Integración con Google Calendar</li>
+                        <li>Sistema de reservas online</li>
+                        <li>Notificaciones por correo</li>
+                        <li>Panel de administración</li>
+                        <li>Gestión de disponibilidad</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Servicio 3 -->
+            <article class="service-card">
+                <div class="service-icon">🛒</div>
+                <h3>E-commerce con Pasarelas de Pago</h3>
+                <p>Tiendas online completas con integración de métodos de pago seguros y personalizados.</p>
+
+                <div class="service-includes">
+                    <h4>Incluye:</h4>
+                    <ul>
+                        <li>Catálogo de productos completo</li>
+                        <li>Carrito de compras funcional</li>
+                        <li>Pasarelas de pago estándar</li>
+                        <li>Pago por comprobante/SINPE Móvil</li>
+                        <li>Gestión de inventario</li>
+                        <li>Panel administrativo completo</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Servicio 4 -->
+            <article class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>Desarrollos a la Medida</h3>
+                <p>Soluciones web personalizadas diseñadas específicamente para las necesidades únicas de tu proyecto.
+                </p>
+
+                <div class="service-includes">
+                    <h4>Incluye:</h4>
+                    <ul>
+                        <li>Consultoría y análisis inicial</li>
+                        <li>Desarrollo personalizado</li>
+                        <li>Funcionalidades específicas</li>
+                        <li>Integraciones con APIs externas</li>
+                        <li>Soporte técnico extendido</li>
+                        <li>Capacitación en uso del sistema</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SECCIÓN PORTAFOLIO -->
+    <!-- ========================================= -->
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+
+        <!-- Proyecto: Clínica Seger -->
+        <article class="portfolio-item">
+            <h3>Clínica Seger</h3>
+
+            <!-- Imagen del proyecto -->
+            <img src="assets/images/portfolio/LogoClinicaSeger.png" alt="Sitio web Clínica Seger">
+
+            <p>
+                Desarrollo del sitio web oficial de Clínica Seger, enfocado en una presentación
+                clara de servicios médicos, diseño profesional y experiencia de usuario accesible. Con la posibiliadad
+                de agendar citas en línea mediante integración con Google Calendar.
+            </p>
+
+            <p><strong>Tecnologías utilizadas:</strong></p>
+            <div class="tech-stack">
+                <span class="tech-tag">WordPress</span>
+                <span class="tech-tag">Google Calendar</span>
+                <span class="tech-tag">Diseño Responsive</span>
+            </div>
+
+            <!-- Enlace al proyecto real -->
+            <a href="https://clinicaseger.com/" target="_blank" rel="noopener noreferrer">
+                Ver sitio web →
+            </a>
+        </article>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SECCIÓN EQUIPO -->
+    <!-- ========================================= -->
+    <section id="equipo">
+        <h2>Nuestro equipo</h2>
+
+        <div class="team-grid">
+            <!-- Integrante 1 -->
+            <article class="team-member">
+                <img src="assets/images/team/Fabricio.jpg" alt="Fabricio Alfaro">
+                <h3>Fabricio Alfaro</h3>
+                <p>Desarrollador Web</p>
+                <a href="https://fabri0607una.github.io/Mi-Portafolio/" class="team-member-link" target="_blank"
+                    rel="noopener noreferrer">
+                    Ver Portafolio →
+                </a>
+            </article>
+
+            <!-- Integrante 2 -->
+            <article class="team-member">
+                <img src="assets/images/team/Juan Diego.jpg" alt="Juan Rodríguez">
+                <h3>Juan Rodríguez</h3>
+                <p>Desarrollador Web</p>
+                <a href=# class="team-member-link" target="_blank" rel="noopener noreferrer">
+                    Ver Portafolio →
+                </a>
+            </article>
+
+            <!-- Integrante 3 -->
+            <article class="team-member">
+                <img src="assets/images/team/Nahum.jpg" alt="Nahum Mora">
+                <h3>Nahum Mora</h3>
+                <p>Desarrollador Web</p>
+                <a href=# class="team-member-link" target="_blank" rel="noopener noreferrer">
+                    Ver Portafolio →
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SECCIÓN CONTACTO -->
+    <!-- ========================================= -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <p>
+            En <strong>CoreWeb Solutions</strong> estamos abiertos a nuevas oportunidades de colaboración,
+            proyectos profesionales o ideas innovadoras.
+            Escríbenos y nos pondremos en contacto contigo lo antes posible.
+        </p>
+
+        <!-- CONTENEDOR CONTACTO -->
+        <div class="contact-container">
+
+            <!-- FORMULARIO -->
+            <form id="formContact" action="https://formspree.io/f/mrebnnga" method="POST">
+                <div class="form-group">
+                    <label for="name">Tu nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Tu correo</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Enviar mensaje
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- FOOTER -->
+    <!-- ========================================= -->
+    <footer>
+        <p>
+            © 2026 CoreWeb Solutions. Todos los derechos reservados.
+        </p>
+    </footer>
+
+    <!-- ========================================= -->
+    <!-- ARCHIVO JAVASCRIPT -->
+    <!-- ========================================= -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
